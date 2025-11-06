@@ -11,7 +11,7 @@ pipeline {
             steps {
                 script {
                     sh 'docker build . -t hellodocker'
-                    sh 'docker tag hellodocker anki2003ta/learning'
+                    sh 'docker tag hellodocker 202226/learning'
                 }
             }
         }    
